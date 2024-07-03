@@ -1,0 +1,26 @@
+44	26	145	37
+67	22	122	41
+
+
+
+
+
+user use case
+-
+one parahagraph 
+pain point
+killer feature 
+proof of traction 
+
+
+Hey guys! as Albert mentioned today, please send me the following via email: 
+
+1. User
+2. Usecase
+3. Big Pain Point
+4. Killer feature to solve the Big Pain Point
+5. Proof traction (quantify)
+6. Team summary
+
+Please send this to the person that contacted you via email: tristan@btcstartuplab.com or martin@btcstartuplab.com
+ 
