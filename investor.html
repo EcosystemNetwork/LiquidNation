@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Investor Information for Liquid Nation.">
+    <title>Investor Information - Liquid Nation</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="chartinv.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+    <a href="#default" class="headlogo">
+        <img src="imgs/123logo100px.png" alt="Logo" />
+    </a>
+    <nav class="header-right">
+        <a href="index.html">Home</a>
+        <a href="form.html">Join Waitlist</a>
+        <a href="team.html">Team</a>
+        <a href="investor.html">Investor Info</a>
+    </nav>
+</header>
+
+<main class="main-content">
+    <section class="intro">
+        <h1>Investor Information</h1>
+        <p>Explore the investment opportunities and growth potential of Liquid Nation.</p>
+    </section>
+
+    <section class="investment-info">
+        <h2>Investment Overview</h2>
+        <p>Liquid Nation will start as a permissionless multi-chain bridge data aggregator protocol, engineered for peer-to-peer (P2P) cross-chain escrow transactions.</p>
+    </section>
+
+    <section class="phases">
+        <h2>Phase 1 Interface</h2>
+        <img src="imgs/phase1.jpg" alt="Phase 1 Interface" />
+    </section>
+
+    <section class="villia-version">
+        <h2>Villia Version</h2>
+        <img src="imgs/villia_version.jpg" alt="Villia Version Interface" />
+        <div class="pros-cons">
+            <div class="pros">
+                <h3>Pros:</h3>
+                <ul>
+                    <li>Onboards users quickly</li>
+                    <li>Familiar Web 2 features & UX/UI</li>
+                    <li>Ad Revenue</li>
+                </ul>
+            </div>
+            <div class="cons">
+                <h3>Cons:</h3>
+                <ul>
+                    <li>Users have to opt-out of quantum security measures</li>
+                    <li>Less access to accurate data feeds</li>
+                </ul>
+            </div>
+        </div>
+        <div class="chart-container">
+            <canvas id="prosConsChart"></canvas>
+        </div>
+    </section>
+
+    <section class="value-proposition">
+        <h2>Value Proposition</h2>
+        <div class="chart-container">
+            <canvas id="valuePropositionChart"></canvas>
+        </div>
+    </section>
+
+    <section class="cap-table">
+        <h2>Cap Table</h2>
+        <ul>
+            <li>Eric Founder CEO (70.5%)... Class A Common Voting</li>
+            <li>Chris Co-Founder CFO (15%)... Class A Common Voting</li>
+            <li>Rene Co-Founder CTO (10%)... Class A Common Voting</li>
+            <li>Bitcoin Startup Lab (4.5%)...</li>
+        </ul>
+        <div class="chart-container">
+            <canvas id="capTableChart"></canvas>
+        </div>
+    </section>
+
+    <section class="valuation">
+        <h2>Valuation</h2>
+        <p>$800 Million - $8 Billion + by Series B - Series C (1.5 - 2.5 yrs)</p>
+        <p>$8 MM (raising) 1.5 - 2.5 Months</p>
+        <p>Valuation can be projected by product reach.</p>
+        <p>Asking $8 MM over 1.5 - 2.5 Months</p>
+        <div class="chart-container">
+            <canvas id="valuationChart"></canvas>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <a href="https://x.com/Liquid__Nation">X</a>
+    <a href="https://signal.group/#CjQKID4IU6QAOTk6pikaFh0L1JW5rTMNaDelxMWQ35jhfKUMEhDy4p748HHe0r2ko-o8LA3X">Signal</a>
+    <a href="Liquid Nation Whitepaper V.0.pdf">Whitepaper</a>
+    <script type="text/javascript">
+      (function(d, t) {
+          var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+          v.onload = function() {
+            window.voiceflow.chat.load({
+              verify: { projectID: '65f1cfe18230a2dc922966e3' },
+              url: 'https://general-runtime.voiceflow.com',
+              versionID: 'production'
+            });
+          }
+          v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+      })(document, 'script');
+    </script>
+</footer>
+
+</body>
+</html>
